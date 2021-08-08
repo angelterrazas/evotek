@@ -1,0 +1,131 @@
+*{
+     margin: 0;
+     font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+     height: 100vh;
+}
+
+header{
+     height: 10vh;
+     
+     display:grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-template-rows: 1fr;
+     align-items: center;
+}
+
+.logo{
+     grid-column:2/3 ;
+     grid-row: 1/2 ;
+     width: 200px;
+    margin: 0 auto;
+}
+
+.user{
+     grid-column: 3/4;
+     margin: 0 auto;
+}
+
+.logo img{
+     width: 100%;
+}
+
+.user-i{
+     color: gray;
+     cursor: pointer;
+}
+.datee{
+     margin-top:3vh;
+}
+.sink{
+     color: white;
+     background: #9ad660;
+     border-radius: 5px;
+     border: none;
+     outline: none;
+     cursor: pointer;
+     padding: .5vw 1vw;
+     border-bottom: 4px solid green;
+     border-right: 3px solid green;
+     transition: all .3s;
+}
+
+.centerr{
+     margin: 0 auto;
+     width: 50%;
+}
+
+.sink:hover{
+     transform: scale(1.1);
+}
+.clis{
+     
+     height: 50px;
+     margin-top: 30px;
+}
+.center{
+     margin: 0 auto;
+     width: 60%;
+     height: 25vh;
+     text-align: center;
+     background: steelblue;
+     border-radius: 10px;
+}
+
+.scroll{
+     height: 25vh;
+     
+     display: flex;
+     overflow-y: scroll;
+     
+}
+
+.scroll::-webkit-scrollbar{
+     
+     height: 6px;
+     
+}
+
+.scroll::-webkit-scrollbar-corner{
+     background: rgb(203, 215, 224);;
+}
+
+.scroll::-webkit-scrollbar-thumb{
+     background: steelblue;
+     border-radius: 5px;
+     
+
+}
+
+
+
+.action-h2{
+     margin-left: 9px;
+    /* margin: 21px 11px; */
+    padding: 10px 0px;
+}
+
+.gray{
+     background: rgb(203, 215, 224);
+     
+}
+
+.container{
+     height: 35vh;
+     margin-bottom: 10vh;
+
+     
+     
+}
+
+.peli{
+     flex-shrink: 0;
+     height: 21vh;
+     margin: 0px 10px;
+     width: 20vw;
+     border-radius: 5px;
+     background: tomato;
+}

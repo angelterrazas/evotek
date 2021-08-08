@@ -1,0 +1,24 @@
+.center{
+     text-align: center;
+}
+.pick{
+     width: 2.1rem !important;
+    height: 2.1rem !important;
+    object-fit: cover;
+}
+
+.fds{
+     margin: 0vw .5vw;
+}
+
+.align{
+     align-items: center;
+}
+
+.white{
+     color: white;
+}
+
+.ggg{
+     font-size: 14px;
+}
